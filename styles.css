@@ -12,7 +12,6 @@ img {
 .content,
 .logo {
     display: flex;
-    flex-flow: row wrap;
 }
 
 .content {
@@ -24,7 +23,31 @@ img {
 .picture {
     background-image: url(/Users/cadegaiss/downloads/GP.jpg);
     background-position: center;
-    background-size: auto;
-    width: 50vw;
-    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+}
+
+
+.logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 20vh;
+    gap: -10vw;
+    padding: 10px 40px;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lp-logo {
+    height: 10vh;
+
+}
+
+.lavender-peach {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+   
 }
