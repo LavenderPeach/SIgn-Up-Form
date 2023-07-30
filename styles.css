@@ -8,3 +8,23 @@ img {
     width: 200px;
     height: 150px;
 }
+
+.content,
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.picture {
+    background-image: url(/Users/cadegaiss/downloads/GP.jpg);
+    background-position: center;
+    background-size: auto;
+    width: 50vw;
+    background-repeat: no-repeat;
+}
