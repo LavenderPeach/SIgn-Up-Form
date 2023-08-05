@@ -19,8 +19,7 @@ img {
 }
 
 .content {
-    width: 100vw;
-    height: 100vh;
+    height: 100vw
 }
 
 
@@ -29,6 +28,9 @@ img {
     background-position: center;
     background-size: cover;
     width: 40vw;
+    position: relative;
+    padding: 20px;
+   
 }
 
 
@@ -57,7 +59,7 @@ img {
 }
 
 .right {
-    width: 60%;
+   width: 60vw;
     padding: 20px;
     background-color: #f0f0f0;
 }
